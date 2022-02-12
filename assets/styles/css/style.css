@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+body img,
+body select,
+body input[type="submit"] {
+  width: 50%;
+}
+
+body .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+body form {
+  background: skyblue;
+  border: 1px solid;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+body form h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+body form .icon-wrapper {
+  width: 3rem;
+  height: 3rem;
+  background: #32acdc;
+  font-size: 2rem;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+body form .content-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+body form .content-wrapper label {
+  font-size: 1.25rem;
+}
+
+body form input {
+  width: 100%;
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+body form select {
+  display: block;
+  font-size: 1.25rem;
+  margin: 1rem auto 2rem auto;
+}
+
+body form input[type="submit"] {
+  margin: auto;
+}
+
+body form p {
+  font-size: 1.25em;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+/*# sourceMappingURL=style.css.map */
